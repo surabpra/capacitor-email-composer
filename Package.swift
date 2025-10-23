@@ -7,14 +7,22 @@ let package = Package(
     products: [
         .library(
             name: "CapacitorEmailComposer",
-            targets: ["Plugin"]
+            targets: ["CapacitorEmailComposer"]
         ),
     ],
     targets: [
         .target(
-            name: "Plugin",
+            name: "CapacitorEmailComposerObjC",
             path: "Sources/Plugin",
+            exclude: ["EmailComposer.swift", "EmailComposerPlugin.swift", "Info.plist"],
             publicHeadersPath: "."
         ),
+        .target(
+            name: "CapacitorEmailComposer",
+            dependencies: ["CapacitorEmailComposerObjC"],
+            path: "Sources/Plugin",
+            exclude: ["EmailComposerPlugin.m", "EmailComposerPlugin.h"],
+            resources: [.copy("Info.plist")]
+        )
     ]
 )
