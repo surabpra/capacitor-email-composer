@@ -1,0 +1,4 @@
+module CapacitorEmailComposer {
+    header "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/CapacitorEmailComposer-Swift.h"
+    requires objc
+}

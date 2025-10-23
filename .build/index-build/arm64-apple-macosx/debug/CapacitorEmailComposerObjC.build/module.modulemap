@@ -1,0 +1,4 @@
+module CapacitorEmailComposerObjC {
+    umbrella "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin"
+    export *
+}

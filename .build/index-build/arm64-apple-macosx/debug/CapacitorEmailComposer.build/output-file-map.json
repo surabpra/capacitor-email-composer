@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/master.swiftdeps"
+  },
+  "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposer.swift": {
+    "dependencies": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposer.d",
+    "object": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposer.swift.o",
+    "swiftmodule": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposer~partial.swiftmodule",
+    "swift-dependencies": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposer.swiftdeps"
+  },
+  "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposerPlugin.swift": {
+    "dependencies": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposerPlugin.d",
+    "object": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposerPlugin.swift.o",
+    "swiftmodule": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposerPlugin~partial.swiftmodule",
+    "swift-dependencies": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposerPlugin.swiftdeps"
+  },
+  "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/resource_bundle_accessor.d",
+    "object": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/resource_bundle_accessor.swiftdeps"
+  }
+}

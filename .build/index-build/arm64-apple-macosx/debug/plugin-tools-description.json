@@ -1,0 +1,294 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer_CapacitorEmailComposer.bundle/Info.plist" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/Info.plist"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer_CapacitorEmailComposer.bundle/Info.plist"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.CapacitorEmailComposer-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/sources",
+      "importPath" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposerPlugin.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<CapacitorEmailComposer-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposerPlugin.h"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "CapacitorEmailComposer",
+      "moduleOutputPath" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/Modules/CapacitorEmailComposer.swiftmodule",
+      "objects" : [
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposer.swift.o",
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/EmailComposerPlugin.swift.o",
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.13",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-Xcc",
+        "-fmodule-map-file=/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposerObjC.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin",
+        "-module-cache-path",
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/CapacitorEmailComposer-Swift.h",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "capacitor_email_composer"
+      ],
+      "outputFileMapPath" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/Modules/CapacitorEmailComposer.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposer.swift",
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposerPlugin.swift",
+        "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "CapacitorEmailComposer" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "CapacitorEmailComposer",
+      "-package-name",
+      "capacitor_email_composer",
+      "-incremental",
+      "-c",
+      "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposer.swift",
+      "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposerPlugin.swift",
+      "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.13",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-Xcc",
+      "-fmodule-map-file=/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposerObjC.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin",
+      "-module-cache-path",
+      "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/CapacitorEmailComposer-Swift.h",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.5.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "capacitor_email_composer",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "CapacitorEmailComposer" : [
+      "CapacitorEmailComposerObjC"
+    ],
+    "CapacitorEmailComposerObjC" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "enableAllTraits" : false
+  },
+  "writeCommands" : {
+    "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposer.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/Sources/Plugin/EmailComposerPlugin.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/CapacitorEmailComposer.build/sources"
+    },
+    "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/surabhishinde/Desktop/GithubRepos/ForkedRepos/capacitor-email-composer/.build/index-build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
