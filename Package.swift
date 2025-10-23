@@ -13,15 +13,13 @@ let package = Package(
     targets: [
         .target(
             name: "CapacitorEmailComposerObjC",
-            path: "Sources/Plugin",
-            exclude: ["EmailComposer.swift", "EmailComposerPlugin.swift", "Info.plist"],
+            path: "Sources/CapacitorEmailComposerObjC",
             publicHeadersPath: "."
         ),
         .target(
             name: "CapacitorEmailComposer",
             dependencies: ["CapacitorEmailComposerObjC"],
-            path: "Sources/Plugin",
-            exclude: ["EmailComposerPlugin.m", "EmailComposerPlugin.h"],
+            path: "Sources/CapacitorEmailComposer",
             resources: [.copy("Info.plist")]
         )
     ]
